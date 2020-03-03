@@ -3892,7 +3892,12 @@ caniuse-lite@^1.0.0:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001019.tgz#857e3fccaad2b2feb3f1f6d8a8f62d747ea648e1"
   integrity sha512-6ljkLtF1KM5fQ+5ZN0wuyVvvebJxgJPTmScOMaFuQN2QuOzvRJnWSKfzQskQU5IOU4Gap3zasYPIinzwUjoj/g==
 
-caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001017, caniuse-lite@^1.0.30001027:
+caniuse-lite@^1.0.30000844:
+  version "1.0.30001031"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001031.tgz#76f1bdd39e19567b855302f65102d9a8aaad5930"
+  integrity sha512-DpAP5a1NGRLgYfaNCaXIRyGARi+3tJA2quZXNNA1Du26VyVkqvy2tznNu5ANyN1Y5aX44QDotZSVSUSi2uMGjg==
+
+caniuse-lite@^1.0.30001017, caniuse-lite@^1.0.30001027:
   version "1.0.30001030"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001030.tgz#78076c4c6d67d3e41d6eb9399853fb27fe6e44ee"
   integrity sha512-QGK0W4Ft/Ac+zTjEiRJfwDNATvS3fodDczBXrH42784kcfqcDKpEPfN08N0HQjrAp8He/Jw8QiSS9QRn7XAbUw==
@@ -4967,10 +4972,15 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.322, electron-to-chromium@^1.3.349, electron-to-chromium@^1.3.47:
+electron-to-chromium@^1.3.322, electron-to-chromium@^1.3.349:
   version "1.3.361"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.361.tgz#a820bf52da171c0024314745462cfe0dc944373e"
   integrity sha512-OzSVjWpsRhJyr9PSAXkeloSe6e9viU2ToGt1wXlXFsGcxuI9vlsnalL+V/AM59Z2pEo3wRxIddtOGsT7Y6x/sQ==
+
+electron-to-chromium@^1.3.47:
+  version "1.3.367"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.367.tgz#48abffcaa6591051b612ae70ddc657763ede2662"
+  integrity sha512-GCHQreWs4zhKA48FNXCjvpV4kTnKoLu2PSAfKX394g34NPvTs2pPh1+jzWitNwhmOYI8zIqt36ulRVRZUgqlfA==
 
 element-closest@^2.0.2:
   version "2.0.2"
@@ -5483,9 +5493,9 @@ ember-cli-normalize-entity-name@^1.0.0:
     silent-error "^1.0.0"
 
 ember-cli-page-object@^1.11.0:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-page-object/-/ember-cli-page-object-1.16.1.tgz#692af2ce98adb09d6b200e6d23c21c1e1edcd8a1"
-  integrity sha512-R2JOgR7JwIlVHS2I2VjgPI1Vn91Ct+YbkpIeb5dxOwemU494l65I4GzzZ/FsPh46ygcGgiWR4nFlcGSg7hFXXw==
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-page-object/-/ember-cli-page-object-1.16.2.tgz#3e0c8688c4634b13ad3129089f1e827a5d8a123f"
+  integrity sha512-1ce495Tp6R5P1FnXYGvfHDe+QtkRwz5RzcxiO9qNSUN7j13iSo6vbiB/12t3nNNOIW/k/BshsQHgD83L7xZOpw==
   dependencies:
     broccoli-file-creator "^2.1.1"
     broccoli-merge-trees "^2.0.0"
@@ -11452,14 +11462,14 @@ resolve@1.9.0:
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.1.3, resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.14.0, resolve@^1.5.0:
+resolve@^1.1.3, resolve@^1.1.6, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.14.0, resolve@^1.5.0:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.14.2.tgz#dbf31d0fa98b1f29aa5169783b9c290cb865fea2"
   integrity sha512-EjlOBLBO1kxsUxsKjLt7TAECyKW6fOh1VRkykQkKGzcBbjjPIxBqGh0jf7GJ3k/f5mxMqW3htMD3WdTUVtW8HQ==
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.10.0, resolve@^1.11.1, resolve@^1.13.1, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.7.1, resolve@^1.8.1:
+resolve@^1.1.7, resolve@^1.10.0, resolve@^1.11.1, resolve@^1.13.1, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.7.1, resolve@^1.8.1:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
